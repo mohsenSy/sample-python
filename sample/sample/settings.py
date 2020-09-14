@@ -25,7 +25,8 @@ SECRET_KEY = 'lz=2s&2ijts091f#5^t7#tjcy!arv9yvi-b%v&7pglks3320nq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["68.183.219.10",
+                 "sample-python-genyb.ondigitalocean.app"]
 
 
 # Application definition

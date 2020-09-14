@@ -4,6 +4,6 @@ COPY requirements.txt start-server.sh /app/
 COPY sample /app/
 WORKDIR /app
 RUN pip install -r requirements.txt
-EXPOSE 8080
+EXPOSE 8000
 STOPSIGNAL SIGTERM
 CMD ["/app/start-server.sh"]
